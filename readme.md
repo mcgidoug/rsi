@@ -1,8 +1,8 @@
-# Ron Swanson Inspires | An inspirational quote generator
+# RSCP MEME GEN | An inspirational quote generator
 
 ### Live link to deployed app
 
-[Project1]()
+[RSCP MEME GEN]()
 
 ### List of technologies
 
@@ -20,4 +20,4 @@ A simple web application designed to pull random photos and pair it with an insp
 
 ## Screenshot of Wireframe
 
-![Screenshot of Wireframe]()
+![Screenshot of Wireframe](./Assets/reference/wireframeScreenshot.png)
