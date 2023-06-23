@@ -27,6 +27,9 @@
 .getMeme {
   margin-bottom: 1.25rem;
 }
+.deleteAll {
+  margin-bottom: 1.25rem;
+}
 
 .page-flexbox {
   display: flex;

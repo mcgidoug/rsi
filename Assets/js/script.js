@@ -2,6 +2,7 @@
 let currentImg = document.querySelector(".randomCatImg");
 let currentQuote = document.querySelector(".currentQuoteBox");
 let memeButton = document.querySelector(".getMeme");
+let deleteButton = document.querySelector(".deleteAll");
 let nextButton = document.querySelector(".nextButton");
 let pageFlexbox = document.querySelector(".page-flexbox");
 let pastQuotes = document.querySelector(".quotes-container");
@@ -9,6 +10,7 @@ let pastQuotes = document.querySelector(".quotes-container");
 // event listeners
 memeButton.addEventListener("click", getMeme);
 nextButton.addEventListener("click", getMeme);
+deleteButton.addEventListener("click", deleteAll);
 
 // iterates over past quotes and replaces current quote/img
 pastQuotes.addEventListener("click", function (event) {
@@ -70,4 +72,11 @@ function pastMemes() {
     );
     pastQuotes.append(oldMemeBtn);
   }
+}
+
+// clears memes in storage
+function deleteAll() {
+  location.reload();
+  storedMemeArray = [];
+  localStorage.clear();
 }
